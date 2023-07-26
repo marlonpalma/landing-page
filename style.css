@@ -1,0 +1,261 @@
+*{
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,p{
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.contenedor{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-background{
+	background-image: url(./fondo_superior.jpg);
+	background-repeat: no-repeat;
+	color: white;
+	padding: 5px 40px 30px;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.logo{
+	width: 150px;
+}
+
+.logo img{
+	width: 100%;
+}
+
+nav{
+	width: 220px;
+}
+
+ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	font-size: 34px;
+}
+
+form{
+	background: white;
+	color: black;
+	padding: 20px;
+}
+
+form h2{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.datos{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.datos label{
+	margin-bottom: 10px;
+}
+
+.datos input{
+	height: 40px;
+
+}
+
+form button{
+	width: 100%;
+	height: 35px;
+	color: white;
+	background: rgb(1, 187, 1);
+	border: none;
+	margin-top: 15px;
+}
+
+form p{
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+form span{
+	text-decoration: underline;
+}
+
+.clases-header{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+h1{
+	font-size: 41px;
+	margin-bottom: 40px;
+}
+
+.texto-header p{
+	font-size: 16px;
+	margin-bottom: 45px;
+}
+
+/* section image */
+
+.contenedor-img{
+	width: 100px;
+	border-radius: 50%;
+	border: 1px solid rgb(80, 179, 218);
+	overflow: hidden;
+	background: white;
+	margin-bottom: 20px;
+}
+
+.section-image article img{
+	width: 100%;
+}
+
+.section-image{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding-top: 70px;
+	padding-right: 90px;
+	padding-left: 90px;
+	margin-bottom: 100px;
+}
+
+.section-image p{
+	text-align: center;
+}
+
+.section-image article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+/* section video */
+
+.section-video{
+	background-color: rgb(240, 248, 245);
+	padding: 20px 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.video-texto h2{
+	margin-bottom: 30px;
+}
+
+.video-texto{
+	max-width: 600px;
+}
+
+.video-texto p{
+	margin-bottom: 30px;
+	line-height: 22px;
+}
+
+.video-texto button{
+	width: 400px;
+	height: 35px;
+	background: rgb(1, 187, 1);
+	color: white;
+	border: none;
+}
+
+.section-video video{
+	max-width: 500px;
+}
+
+/* Section personajes */
+
+.section-personajes{
+	padding: 40px;
+}
+
+.section-personajes h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.personajes{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 30px;
+	padding: 20px 40px;
+}
+
+.personajes article{
+	box-shadow: 5px 10px 10px rgb(215, 214, 214); 
+}
+
+.personajes img{
+	width: 100%;
+}
+
+.personajes-texto{
+	padding-bottom: 45px;
+}
+
+.personajes-texto h3{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.personajes-texto p{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.fa-brands{
+	font-size: 22px;
+	margin-right: 10px;
+}
+
+.contenedor-icons{
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* Foooter */
+
+footer{
+	background-image: url(fondo_inferior.jpg);
+	background-position: center;
+	text-align: center;
+	padding: 60px 120px 40px;
+}
+
+footer h3, p{
+	margin-bottom: 30px;
+}
+
+footer button{
+	width: 220px;
+	height: 40px;
+	background: rgb(1, 187, 1);
+	color: white;
+	border: none;
+}
